@@ -1,0 +1,57 @@
+.container {
+  max-width: 1000px;
+  
+}
+
+input[type="number"] {
+   -moz-appearance: textfield;
+   font-size: 16px; 
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  appearance: none;
+  margin: 0;
+  
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container {
+  max-width: 900px;
+}
+
+input[type="number"] {
+   -moz-appearance: textfield;
+   font-size: 30px; 
+  }
+
+ svg{
+    width: 40px;
+    height: 40px;
+  }
+  
+h1{
+  font-size: 28px;
+}
+}
+
+@media (max-width: 767px) {
+.container {
+  max-width: 500px;
+}
+
+h1{
+  font-size: 14px;
+}
+
+input[type="number"] {
+   -moz-appearance: textfield;
+   font-size: 25px; 
+  }
+
+  svg{
+    width: 35px;
+    height: 35px;
+  }
+
+}
