@@ -1,3 +1,4 @@
+// контейнеры счётчика
 let upButton = document.querySelector(`#up`);
 let downButton = document.querySelector(`#down`);
 let countInput = document.querySelector(`#count`);
